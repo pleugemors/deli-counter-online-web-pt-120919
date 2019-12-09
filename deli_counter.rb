@@ -18,3 +18,7 @@ def take_a_number(customers, name)
   puts "Welcome, #{name}. You are number #{customers.size} in line."
   return customers
 end
+
+def now_serving(customers)
+  
+end
