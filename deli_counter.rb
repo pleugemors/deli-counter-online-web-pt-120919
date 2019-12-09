@@ -6,7 +6,7 @@ def line(customers)
     text = "The line is currently: "
     customers.each.with_index do |name, index| 
       text += (index+1) + ". " + name 
-      return text
+      puts text
     end
   end
     
