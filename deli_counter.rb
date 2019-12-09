@@ -16,4 +16,5 @@ end
 def take_a_number(customers, name)
   customers << name 
   puts name +" "+ customers.size().to_s
+  return customers
 end
