@@ -20,5 +20,6 @@ def take_a_number(customers, name)
 end
 
 def now_serving(customers)
-  
+  if customers.size == 0 
+    puts "There is nobody waiting to be served!"
 end
