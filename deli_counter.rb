@@ -4,8 +4,9 @@ def line(customers)
     puts "The line is currently empty."
   else
     text = "The line is currently: "
-    customers.each.with_index do |name, index| 
-      text += (index+1) + ". " + name 
+    customers.each.with_index do |name, index|
+      text += " "
+      text += index+1 + ". " + name 
       puts text
     end
   end
