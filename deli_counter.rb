@@ -7,8 +7,8 @@ def line(customers)
     customers.each.with_index do |name, index|
       text += " "
       text +=  ". " + name 
-      puts text
     end
+    puts text
   end
     
 end
